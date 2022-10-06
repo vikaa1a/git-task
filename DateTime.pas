@@ -8,6 +8,7 @@ writeln('Год високосный: ', (year mod 4 = 0) and ((year mod 400 = 0
 writeln(newline);
 writeln('Задание 2. Секунд в минуте: ', 60);
 
+{
 //Какой из дней ближе к НГ?
 writeln(newline);
 var (d1, m1) := ReadInteger2('Задание 3. Введите число и месяц: ');
@@ -53,4 +54,5 @@ print(hours * 3600);
 writeln(newline);
 var year3 := ReadInteger('Задание 7. Введите год: ');
 print((year3 = 1992) or (year3 = 2005) or (year3 = 2011))
+}
 end.
